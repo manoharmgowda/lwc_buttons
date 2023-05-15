@@ -1,0 +1,28 @@
+<template>
+    <div class="slds-size_medium">
+    <lightning-card title=" Applicant">
+        <lightning-avatar src="https://cdn.iconscout.com/icon/premium/png-256-thumb/businessman-1501817-1298388.png"></lightning-avatar>
+        <lightning-button label="Create Applicant" icon-name="action:new" onclick={navigatetoNewApplicant}></lightning-button><br/>
+        <lightning-avatar src="https://www.svgrepo.com/show/4494/preview.svg"></lightning-avatar>
+        <lightning-button label="Edit|Delete|View Applicant Records" icon-name="action:edit" onclick={navigatetoEditApplicant}></lightning-button><br/>
+    </lightning-card><br/>
+    <lightning-card title="Position">
+        <lightning-avatar src="https://cdn2.iconfinder.com/data/icons/mixed-rounded-flat-icon/512/briefcase-512.png"></lightning-avatar>
+        <lightning-button label="Create Position" icon-name="action:new" onclick={navigatetoNewPosition}></lightning-button><br/>
+        <lightning-avatar src="https://cdn-icons-png.flaticon.com/512/1091/1091169.png"></lightning-avatar>
+        <lightning-button label="Edit|Delete|View Position Records" icon-name="action:edit" onclick={navigatetoEditPosition}></lightning-button><br/>
+    </lightning-card><br/>
+    <lightning-card title="Interviewer">
+        <lightning-avatar src="https://cdn-icons-png.flaticon.com/512/6543/6543824.png"></lightning-avatar>
+        <lightning-button label="Create Interviewer" icon-name="action:new" onclick={navigatetoNewInterviewer}></lightning-button><br/>
+        <lightning-avatar src="https://cdn-icons-png.flaticon.com/512/1803/1803210.png"></lightning-avatar>
+        <lightning-button label="Edit|Delete|View Interviewer Records" icon-name="action:edit" onclick={navigatetoEditInterviewer}></lightning-button><br/>   
+    </lightning-card><br/>
+    <lightning-card title="Schedule Interviews">
+        <lightning-avatar src="https://image.shutterstock.com/image-vector/person-appointment-schedule-icon-interview-260nw-1740198920.jpg"></lightning-avatar>
+        <lightning-button label="Schedule Interview" icon-name="standard:schedule_objective" onclick={scheduleInterview}></lightning-button><br/>
+        <lightning-avatar src="https://cdn-icons-png.flaticon.com/128/5424/5424445.png"></lightning-avatar>
+        <lightning-button label="View Scheduled Interviews" icon-name="action:preview" icon-position="center" onclick={viewinterviewes}></lightning-button>
+    </lightning-card>
+</div>
+</template>
